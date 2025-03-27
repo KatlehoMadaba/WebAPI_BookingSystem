@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\bookingsystem\\configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|solutionrelative:bookingsystem\\configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E308070D-E0A0-49CD-86A8-B3969284A250}|Infrastructure\\Infrastructure.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\infrastructure\\migrations\\20250325121653_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E308070D-E0A0-49CD-86A8-B3969284A250}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250325121653_initial migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\bookingsystem\\models\\dto\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|solutionrelative:bookingsystem\\models\\dto\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\bookingsystem\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|solutionrelative:bookingsystem\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\bookingsystem\\migrations\\20250327160130_change prop name change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|solutionrelative:bookingsystem\\migrations\\20250327160130_change prop name change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\application\\mappings\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|solutionrelative:application\\mappings\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\bookingsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|solutionrelative:bookingsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\bookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1C0EF8E-E09D-4031-B7F8-710B1ED87656}|Bookingsystem\\Bookingsystem.csproj|solutionrelative:bookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3661446E-A59F-44B3-9F57-CF6DFF1F375A}|Domain\\Domain.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3661446E-A59F-44B3-9F57-CF6DFF1F375A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E308070D-E0A0-49CD-86A8-B3969284A250}|Infrastructure\\Infrastructure.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E308070D-E0A0-49CD-86A8-B3969284A250}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\application\\dto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|solutionrelative:application\\dto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\application\\dto\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|solutionrelative:application\\dto\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|c:\\users\\katleho madaba\\onedrive - boxfusion international\\desktop\\week 7\\webapi_efcore\\bookingsystem\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE3FDB61-3359-49FB-B8C9-119B406B8B76}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +54,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250327160130_Change Prop Name Change.cs",
-              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Migrations\\20250327160130_Change Prop Name Change.cs",
-              "RelativeDocumentMoniker": "Bookingsystem\\Migrations\\20250327160130_Change Prop Name Change.cs",
-              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Migrations\\20250327160130_Change Prop Name Change.cs",
-              "RelativeToolTip": "Bookingsystem\\Migrations\\20250327160130_Change Prop Name Change.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:01:30.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Models\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Bookingsystem\\Models\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Models\\Entities\\User.cs",
-              "RelativeToolTip": "Bookingsystem\\Models\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:47:15.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Models\\DTO\\AddUserDto.cs",
-              "RelativeDocumentMoniker": "Bookingsystem\\Models\\DTO\\AddUserDto.cs",
-              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Models\\DTO\\AddUserDto.cs",
-              "RelativeToolTip": "Bookingsystem\\Models\\DTO\\AddUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:42:46.387Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AutoMapperConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Configurations\\AutoMapperConfig.cs",
-              "RelativeDocumentMoniker": "Bookingsystem\\Configurations\\AutoMapperConfig.cs",
-              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Configurations\\AutoMapperConfig.cs",
-              "RelativeToolTip": "Bookingsystem\\Configurations\\AutoMapperConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Title": "20250325121653_initial migration.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Migrations\\20250325121653_initial migration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250325121653_initial migration.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Migrations\\20250325121653_initial migration.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250325121653_initial migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:45:44.856Z",
+              "WhenOpened": "2025-03-27T17:41:42.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Mappings\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Mappings\\AutoMapperConfig.cs",
+              "RelativeToolTip": "Application\\Mappings\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:55:22.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Program.cs",
+              "RelativeDocumentMoniker": "Bookingsystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Program.cs",
+              "RelativeToolTip": "Bookingsystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:51:45.922Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:51:37.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:47:48.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Bookingsystem\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Bookingsystem\\Controllers\\UserController.cs",
               "RelativeToolTip": "Bookingsystem\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwDIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T13:32:58.917Z"
+              "WhenOpened": "2025-03-27T17:40:02.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\DTO\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\DTO\\UpdateUserDto.cs",
+              "RelativeToolTip": "Application\\DTO\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:37:36.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\DTO\\AddUserDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\AddUserDto.cs",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\DTO\\AddUserDto.cs",
+              "RelativeToolTip": "Application\\DTO\\AddUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:37:31.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-27T17:36:59.839Z"
             }
           ]
         }
