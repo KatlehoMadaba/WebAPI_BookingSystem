@@ -14,8 +14,12 @@ namespace Bookingsystem.Configurations
             //CreateMap<AddUserDto, User>();
             
             //Congfigure when the prop names are not the same between desination class and dto/source class.
-            //adding a user
+            //First Name comes from User(Dest) class Name comes from DTO(Source)
             CreateMap<AddUserDto, User>().ForMember(n=>n.FirstName,opt =>opt.MapFrom(x=>x.Name)).ReverseMap();
+
+            //Name comes from DTO(Source class) FirstName comes from User(dest class)
+           // CreateMap<AddUserDto, User>().ReverseMap().ForMember(n => n.Name, opt => opt.MapFrom(x => x.FirstName));
+
             //updating a user
             CreateMap<UpdateUserDto, User>().ReverseMap();
 
