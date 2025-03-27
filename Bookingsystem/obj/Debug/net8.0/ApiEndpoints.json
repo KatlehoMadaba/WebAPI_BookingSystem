@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "GetAllUsers",
+    "Method": "GetAllUsersAsync",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
     "IsController": true,
@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "AddUser",
+    "Method": "AddUserAsync",
     "RelativePath": "api/User",
     "HttpMethod": "POST",
     "IsController": true,
@@ -27,7 +27,7 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "GetUserById",
+    "Method": "GetUserByIdAync",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -43,7 +43,7 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "UpdateUser",
+    "Method": "UpdateUserAsync",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -64,7 +64,7 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "DeleteUser",
+    "Method": "DeleteUserAync",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
