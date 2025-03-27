@@ -79,7 +79,8 @@ namespace Bookingsystem.Controllers
 
             //usally its a 201
             //return Created();
-            return CreatedAtAction(nameof(AddUserAsync), user);
+            return Ok();
+            //return CreatedAtAction(nameof(AddUserAsync), user);
 
             //if you want to return something specific to the user from the dto class:
             //return CreatedAtRoute("GetUserById",new { id = addUserDto.Id},addUserDto);
