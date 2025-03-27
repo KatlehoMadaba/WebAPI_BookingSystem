@@ -12,8 +12,11 @@ namespace Bookingsystem.Configurations
             //We are copying student data to add user dto
             //CreateMap<User,AddUserDto>();
             //CreateMap<AddUserDto, User>();
-
-            CreateMap<AddUserDto, User>().ReverseMap();
+            
+            //Congfigure when the prop names are not the same between desination class and dto/source class.
+            //adding a user
+            CreateMap<AddUserDto, User>().ForMember(n=>n.FirstName,opt =>opt.MapFrom(x=>x.Name)).ReverseMap();
+            //updating a user
             CreateMap<UpdateUserDto, User>().ReverseMap();
 
         }
