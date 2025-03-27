@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "addUserDto",
-        "Type": "Bookingsystem.Models.DTO.AddUserDto",
+        "Type": "Application.DTO.AddUserDto",
         "IsRequired": true
       }
     ],
@@ -56,7 +56,7 @@
       },
       {
         "Name": "updateUserDto",
-        "Type": "Bookingsystem.Models.DTO.UpdateUserDto",
+        "Type": "ApplicationDTO.UpdateUserDto",
         "IsRequired": true
       }
     ],
@@ -77,26 +77,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bookingsystem.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Bookingsystem.WeatherForecast, Bookingsystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
