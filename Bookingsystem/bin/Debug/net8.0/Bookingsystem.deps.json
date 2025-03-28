@@ -1129,9 +1129,7 @@
         "dependencies": {
           "AutoMapper": "14.0.0",
           "Domain": "1.0.0",
-          "Infrastructure": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "9.0.3",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3"
+          "Infrastructure": "1.0.0"
         },
         "runtime": {
           "Application.dll": {

@@ -14,3 +14,5 @@ C:\Users\Katleho Madaba\OneDrive - Boxfusion International\Desktop\Week 7\WebAPI
 C:\Users\Katleho Madaba\OneDrive - Boxfusion International\Desktop\Week 7\WebAPI_EFCore\Bookingsystem\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\Katleho Madaba\OneDrive - Boxfusion International\Desktop\Week 7\WebAPI_EFCore\Bookingsystem\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\Katleho Madaba\OneDrive - Boxfusion International\Desktop\Week 7\WebAPI_EFCore\Bookingsystem\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\Katleho Madaba\OneDrive - Boxfusion International\Desktop\Week 7\WebAPI_EFCore\Bookingsystem\Application\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Katleho Madaba\OneDrive - Boxfusion International\Desktop\Week 7\WebAPI_EFCore\Bookingsystem\Application\bin\Debug\net8.0\Infrastructure.pdb

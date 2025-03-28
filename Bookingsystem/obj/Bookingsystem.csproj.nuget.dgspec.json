@@ -34,6 +34,9 @@
             "projectReferences": {
               "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -282,8 +285,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Application.csproj"
+              "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj"
               }
             }
           }
