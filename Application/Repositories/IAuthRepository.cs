@@ -7,9 +7,9 @@ using Application.DTO;
 
 namespace Application.Repositories
 {
-    interface IAuthRepository
+    public interface IAuthRepository
     {
-        public Task<AddUserDto?> Register(AddUserDto adduserDto);
-
+        public Task<AddUserDto?> RegisterUserAsync(AddUserDto addUserDto);
+        public Task<string?>LoginUserAsync(LoginUserDto loginUserDto);
     }
 }

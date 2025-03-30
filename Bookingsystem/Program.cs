@@ -19,6 +19,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnecton")));
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 builder.Services.AddScoped<IUserRepository, UserRespository>();
+builder.Services.AddScoped<IAuthRepository,AuthRepository>();
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));//Registering jwt services 
 
 var app = builder.Build();
 
