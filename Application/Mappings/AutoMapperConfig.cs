@@ -11,7 +11,7 @@ namespace Application.Mappings
 
             CreateMap<AddUserDto, User>().ForMember(n=>n.FirstName,opt =>opt.MapFrom(x=>x.Name)).ReverseMap();
 
-            CreateMap<UpdateUserDto, User>().ReverseMap();
+            CreateMap<UpdateUserDto, User>().ForMember(n => n.FirstName, opt => opt.MapFrom(x => x.Name)).ReverseMap();
 
         }
     }

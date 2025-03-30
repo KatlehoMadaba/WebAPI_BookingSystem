@@ -1,4 +1,5 @@
 ﻿using Application.DTO;
+using Application.Repositories;
 using ApplicationDTO;
 using AutoMapper;
 using Domain.Entities;
@@ -13,14 +14,14 @@ namespace Bookingsystem.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly ApplicationDbContext dbContext;
         private readonly IMapper mapper;
+        private readonly IUserRepository userRepository;
 
-        //Injectng your db context
-        public UserController(ApplicationDbContext dbContext, IMapper mapper)
+        //Injectng your IUserRepo and Mapper
+        public UserController( IMapper mapper,IUserRepository userRepository)
         {
-            this.dbContext = dbContext;
             this.mapper = mapper;
+            this.userRepository = userRepository;
 
         }
 
@@ -28,30 +29,27 @@ namespace Bookingsystem.Controllers
         public async Task<IActionResult> GetAllUsersAsync()
         {
 
-            var allUsers = await dbContext.Users.ToListAsync();
+            //var allUsers = await dbContext.Users.ToListAsync();
+            var allUsers = await userRepository.GetAllUsersAsync();
 
             var userDTOData = mapper.Map<List<AddUserDto>>(allUsers);
 
             return Ok(userDTOData);
         }
-
         [HttpPost]
-
-
         public async Task<IActionResult> AddUserAsync(AddUserDto addUserDto)
         {
 
             if (addUserDto == null)
             {
-
                 return BadRequest();
             }
-            User user = mapper.Map<User>(addUserDto);
 
-            await dbContext.Users.AddAsync(user);
-            await dbContext.SaveChangesAsync();
+            await userRepository.AddUserAync(addUserDto);
 
-
+            //User user = mapper.Map<User>(addUserDto);
+            //await dbContext.Users.AddAsync(user);
+            //await dbContext.SaveChangesAsync();
             return Ok();
 
         }
@@ -60,7 +58,9 @@ namespace Bookingsystem.Controllers
         [Route("{id:guid}")]
         public async Task<IActionResult> GetUserByIdAync(Guid id)
         {
-            var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
+            //var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
+
+            var user = await userRepository.GetUserByIdAync(id);
 
             if (user is null)
             {
@@ -75,37 +75,46 @@ namespace Bookingsystem.Controllers
 
         [HttpPut]
         [Route("{id:guid}")]
-        public async Task<IActionResult> UpdateUserAsync(Guid id, UpdateUserDto updateUserDto)
-        {
-            if (updateUserDto == null)
-                BadRequest();
+        public async Task<IActionResult> UpdateUserAsync( Guid id, UpdateUserDto updateUserDto)
+            {
+            if (updateUserDto == null) 
+            {
+                return BadRequest(); 
+            }
+            //var exsitingUser = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
 
-            var exsitingUser = await dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id);
+            var exsitingUser= await userRepository.GetUserByIdAync(id);
+
             if (exsitingUser is null)
             {
                 return NotFound(new { message = "User Not Found" });
             }
             mapper.Map(updateUserDto, exsitingUser);
 
+            //dbContext.Users.Update(exsitingUser);
+            //await dbContext.SaveChangesAsync();
+            //return NoContent();
 
-            dbContext.Users.Update(exsitingUser);
-
-            await dbContext.SaveChangesAsync();
+            await userRepository.UpdateUserAsync(id, updateUserDto);
             return NoContent();
-
         }
+
         [HttpDelete]
         [Route("{id:guid}")]
         public async Task<IActionResult> DeleteUserAync(Guid id)
         {
-            var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
-            if (user is null)
+            //var exsitingUser = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
+
+            var exsitingUser = await userRepository.GetUserByIdAync(id);
+
+            if (exsitingUser is null)
             {
                 return NotFound();
             }
+            //dbContext.Users.Remove(exsitingUser);
+            //await dbContext.SaveChangesAsync();
 
-            dbContext.Users.Remove(user);
-            await dbContext.SaveChangesAsync();
+            await userRepository.DeleteUserAsync(id);
             return Ok();
         }
 
