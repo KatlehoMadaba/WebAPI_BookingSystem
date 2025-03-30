@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bookingsystem",
+    "\\Bookingsystem\\Controllers",
+    "\\Domain",
+    "\\Domain\\Entities"
   ],
+  "SelectedNode": "\\Domain\\Domain.csproj",
   "PreviewInSolutionExplorer": false
 }
