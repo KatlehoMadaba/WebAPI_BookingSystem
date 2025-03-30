@@ -137,7 +137,9 @@
         "required": [
           "cellphone",
           "email",
-          "name"
+          "name",
+          "password",
+          "username"
         ],
         "type": "object",
         "properties": {
@@ -150,6 +152,14 @@
             "nullable": true
           },
           "cellphone": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
             "type": "string",
             "nullable": true
           }
