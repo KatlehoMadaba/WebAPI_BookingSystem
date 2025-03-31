@@ -33,7 +33,7 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "DeleteUserAync",
+    "Method": "DeleteUserAsync",
     "RelativePath": "api/User/DeleteUserById/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -61,7 +61,7 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "GetUserByIdAync",
+    "Method": "GetUserByIdAsync",
     "RelativePath": "api/User/GetUserById/{id}",
     "HttpMethod": "GET",
     "IsController": true,

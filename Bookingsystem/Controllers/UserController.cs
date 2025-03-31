@@ -14,6 +14,10 @@ namespace Bookingsystem.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        //What is modeling binding is the process of mapping data http request to the action method parameters
+        //One that are note mentioned here [FromHeader],[FromQuery]
+        //[FromHeader(Name="Color")]
+        //[FromForm]
         private readonly IMapper mapper;
         private readonly IUserRepository userRepository;
 
@@ -54,7 +58,7 @@ namespace Bookingsystem.Controllers
         //}
 
         [HttpGet("GetUserById/{id:guid}", Name = "GetUserById")]
-        public async Task<IActionResult> GetUserByIdAync(Guid id)
+        public async Task<IActionResult> GetUserByIdAsync([FromRoute] Guid id)
         {
             //var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
 
@@ -71,7 +75,7 @@ namespace Bookingsystem.Controllers
         }
 
         [HttpGet("GetUserByName/{name:alpha}", Name ="GetUserByName")]
-        public async Task<IActionResult>GetUserByNameAsync(string name)
+        public async Task<IActionResult>GetUserByNameAsync([FromRoute] string name)
         {
             var userName= await userRepository.GetUserByUserNameAsync(name);
             if (userName is null) 
@@ -82,7 +86,7 @@ namespace Bookingsystem.Controllers
         }
 
         [HttpPut("UpdateUserById/{id:guid}",Name ="UpdateUser")]
-        public async Task<IActionResult> UpdateUserAsync( Guid id, UpdateUserDto updateUserDto)
+        public async Task<IActionResult> UpdateUserAsync( Guid id, [FromBody] UpdateUserDto updateUserDto)
             {
             if (updateUserDto == null) 
             {
@@ -108,7 +112,7 @@ namespace Bookingsystem.Controllers
 
         [HttpDelete]
         [Route("DeleteUserById/{id:guid}",Name ="DeleteUser")]
-        public async Task<IActionResult> DeleteUserAync(Guid id)
+        public async Task<IActionResult> DeleteUserAsync( [FromRoute] Guid id)
         {
             //var exsitingUser = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
 

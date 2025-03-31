@@ -19,7 +19,7 @@ namespace Bookingsystem.Controllers
 
         }
         [HttpPost("register")]
-        public async Task<IActionResult> RegisterUserAsync(AddUserDto addUserDto)
+        public async Task<IActionResult> RegisterUserAsync([FromBody] AddUserDto addUserDto)
         {
 
             if (addUserDto == null)
@@ -34,7 +34,7 @@ namespace Bookingsystem.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> LoginUserAsync(LoginUserDto loginUserDto)
+        public async Task<IActionResult> LoginUserAsync([FromBody] LoginUserDto loginUserDto)
         {
             var result=await authRepository.LoginUserAsync(loginUserDto);
 
