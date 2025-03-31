@@ -33,8 +33,36 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
+    "Method": "DeleteUserAync",
+    "RelativePath": "api/User/DeleteUserById/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteUser"
+  },
+  {
+    "ContainingType": "Bookingsystem.Controllers.UserController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/User/GetAllUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "Get All Users"
+  },
+  {
+    "ContainingType": "Bookingsystem.Controllers.UserController",
     "Method": "GetUserByIdAync",
-    "RelativePath": "api/User/{id}",
+    "RelativePath": "api/User/GetUserById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -50,45 +78,8 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "UpdateUserAsync",
-    "RelativePath": "api/User/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "updateUserDto",
-        "Type": "ApplicationDTO.UpdateUserDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "DeleteUserAync",
-    "RelativePath": "api/User/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bookingsystem.Controllers.UserController",
     "Method": "GetUserByNameAsync",
-    "RelativePath": "api/User/{name}",
+    "RelativePath": "api/User/GetUserByName/{name}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -104,13 +95,24 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "GetAllUsersAsync",
-    "RelativePath": "api/User/All",
-    "HttpMethod": "GET",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "api/User/UpdateUserById/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateUserDto",
+        "Type": "ApplicationDTO.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [],
-    "EndpointName": "Get All Users"
+    "EndpointName": "UpdateUser"
   }
 ]
