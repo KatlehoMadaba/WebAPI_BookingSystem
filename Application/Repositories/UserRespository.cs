@@ -39,6 +39,16 @@ namespace Application.Repositories
             return await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
         }
 
+        public async Task<User?>GetUserByUserNameAsync(string username)
+        {
+
+            var user= await dbContext.Users.Where(n=> n.Username==username).FirstOrDefaultAsync();
+            if (user==null)
+            {
+                return null; 
+            }
+            return user;
+        }
         public async Task<IEnumerable<User>> GetAllUsersAsync()
         {
             return await dbContext.Users.AsNoTracking().ToListAsync();

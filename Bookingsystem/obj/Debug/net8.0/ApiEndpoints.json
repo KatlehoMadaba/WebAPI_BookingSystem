@@ -33,16 +33,6 @@
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "GetAllUsersAsync",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bookingsystem.Controllers.UserController",
     "Method": "GetUserByIdAync",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
@@ -55,7 +45,8 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [],
+    "EndpointName": "GetUserById"
   },
   {
     "ContainingType": "Bookingsystem.Controllers.UserController",
@@ -93,5 +84,33 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bookingsystem.Controllers.UserController",
+    "Method": "GetUserByNameAsync",
+    "RelativePath": "api/User/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserByName"
+  },
+  {
+    "ContainingType": "Bookingsystem.Controllers.UserController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/User/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "Get All Users"
   }
 ]

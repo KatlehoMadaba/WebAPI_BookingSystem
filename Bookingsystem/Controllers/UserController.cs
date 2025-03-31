@@ -25,7 +25,7 @@ namespace Bookingsystem.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet ("All",Name ="Get All Users")]
         public async Task<IActionResult> GetAllUsersAsync()
         {
 
@@ -53,8 +53,7 @@ namespace Bookingsystem.Controllers
 
         //}
 
-        [HttpGet]
-        [Route("{id:guid}")]
+        [HttpGet("{id:guid}", Name = "GetUserById")]
         public async Task<IActionResult> GetUserByIdAync(Guid id)
         {
             //var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
@@ -71,6 +70,16 @@ namespace Bookingsystem.Controllers
             return Ok(userDTOData);
         }
 
+        [HttpGet("{name:alpha}",Name ="GetUserByName")]
+        public async Task<IActionResult>GetUserByNameAsync(string name)
+        {
+            var userName= await userRepository.GetUserByUserNameAsync(name);
+            if (userName is null) 
+            {
+                return BadRequest();
+            }
+            return Ok(userName);
+        }
 
         [HttpPut]
         [Route("{id:guid}")]

@@ -11,6 +11,7 @@ namespace Application.Repositories
         public Task<User?> GetUserByIdAync(Guid id);
         public Task<User?> UpdateUserAsync(Guid id, UpdateUserDto updateUserDto);
         public Task<string?> DeleteUserAsync(Guid id);
+        public Task<User?> GetUserByUserNameAsync(string username);
 
 
     }
