@@ -67,7 +67,7 @@
         }
       }
     },
-    "/api/User/All": {
+    "/api/User/GetAllUser": {
       "get": {
         "tags": [
           "User"
@@ -80,7 +80,7 @@
         }
       }
     },
-    "/api/User/{id}": {
+    "/api/User/GetUserById/{id}": {
       "get": {
         "tags": [
           "User"
@@ -102,11 +102,38 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/User/GetUserByName/{name}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "operationId": "GetUserByName",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^[A-Za-z]*$",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/UpdateUserById/{id}": {
       "put": {
         "tags": [
           "User"
         ],
+        "operationId": "UpdateUser",
         "parameters": [
           {
             "name": "id",
@@ -142,11 +169,14 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/User/DeleteUserById/{id}": {
       "delete": {
         "tags": [
           "User"
         ],
+        "operationId": "DeleteUser",
         "parameters": [
           {
             "name": "id",
@@ -155,30 +185,6 @@
             "schema": {
               "type": "string",
               "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/User/{name}": {
-      "get": {
-        "tags": [
-          "User"
-        ],
-        "operationId": "GetUserByName",
-        "parameters": [
-          {
-            "name": "name",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "pattern": "^[A-Za-z]*$",
-              "type": "string"
             }
           }
         ],
