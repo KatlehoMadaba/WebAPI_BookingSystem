@@ -9,7 +9,10 @@ namespace Application.Mappings
     {
         public AutoMapperConfig() {
 
-            CreateMap<AddUserDto, User>().ForMember(n=>n.FirstName,opt =>opt.MapFrom(x=>x.Name)).ReverseMap();
+            CreateMap<AddUserDto, User>()
+                .ForMember(n => n.FirstName, opt => opt.MapFrom(x => x.Name))
+                .ForMember(n => n.HashedPassword, opt => opt.MapFrom(x => x.Password))
+                .ReverseMap();
 
             CreateMap<UpdateUserDto, User>().ForMember(n => n.FirstName, opt => opt.MapFrom(x => x.Name)).ReverseMap();
 
