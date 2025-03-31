@@ -1,18 +1,24 @@
 [
   {
-    "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "GetAllUsersAsync",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
+    "ContainingType": "Bookingsystem.Controllers.AuthController",
+    "Method": "LoginUserAsync",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "loginUserDto",
+        "Type": "Application.DTO.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Bookingsystem.Controllers.UserController",
-    "Method": "AddUserAsync",
-    "RelativePath": "api/User",
+    "ContainingType": "Bookingsystem.Controllers.AuthController",
+    "Method": "RegisterUserAsync",
+    "RelativePath": "api/Auth/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -23,6 +29,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bookingsystem.Controllers.UserController",
+    "Method": "GetAllUsersAsync",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

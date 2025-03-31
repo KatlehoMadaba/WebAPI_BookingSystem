@@ -36,23 +36,22 @@ namespace Bookingsystem.Controllers
 
             return Ok(userDTOData);
         }
-        [HttpPost]
-        public async Task<IActionResult> AddUserAsync(AddUserDto addUserDto)
-        {
+        //public async Task<IActionResult> AddUserAsync(AddUserDto addUserDto)
+        //{
 
-            if (addUserDto == null)
-            {
-                return BadRequest();
-            }
+        //    if (addUserDto == null)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            await userRepository.AddUserAync(addUserDto);
+        //    await userRepository.AddUserAync(addUserDto);
 
-            //User user = mapper.Map<User>(addUserDto);
-            //await dbContext.Users.AddAsync(user);
-            //await dbContext.SaveChangesAsync();
-            return Ok();
+        //    //User user = mapper.Map<User>(addUserDto);
+        //    //await dbContext.Users.AddAsync(user);
+        //    //await dbContext.SaveChangesAsync();
+        //    return Ok();
 
-        }
+        //}
 
         [HttpGet]
         [Route("{id:guid}")]

@@ -18,21 +18,21 @@ namespace Application.Repositories
             this.mapper = mapper;
         }
 
-        public async Task<string?>AddUserAync(AddUserDto addUserDto)
-        {
-            if (addUserDto == null) 
-            { 
-                return null;
-            }
+        //public async Task<string?>AddUserAync(AddUserDto addUserDto)
+        //{
+        //    if (addUserDto == null) 
+        //    { 
+        //        return null;
+        //    }
 
-            User newuser=mapper.Map<User>(addUserDto);
+        //    User newuser=mapper.Map<User>(addUserDto);
 
-            await dbContext.Users.AddAsync(newuser);
+        //    await dbContext.Users.AddAsync(newuser);
 
-            await dbContext.SaveChangesAsync();
+        //    await dbContext.SaveChangesAsync();
 
-            return "user Added";
-        }
+        //    return "user Added";
+        //}
         public async Task<User?> GetUserByIdAync(Guid id)
         {
 
