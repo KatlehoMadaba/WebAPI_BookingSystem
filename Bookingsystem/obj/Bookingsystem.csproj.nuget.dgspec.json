@@ -34,9 +34,6 @@
             "projectReferences": {
               "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj"
-              },
-              "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -261,6 +258,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -309,6 +312,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Application\\Application.csproj"
+              },
               "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Katleho Madaba\\OneDrive - Boxfusion International\\Desktop\\Week 7\\WebAPI_EFCore\\Bookingsystem\\Domain\\Domain.csproj"
               }
@@ -344,6 +350,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.3, )"
             }
           },
           "imports": [

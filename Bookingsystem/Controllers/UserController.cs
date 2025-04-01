@@ -2,10 +2,7 @@
 using Application.Repositories;
 using ApplicationDTO;
 using AutoMapper;
-using Domain.Entities;
-using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Bookingsystem.Controllers
 {
